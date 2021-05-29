@@ -1,1 +1,1 @@
-# DantalCare-Admin
+# DentalCare-Admin
