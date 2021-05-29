@@ -1,0 +1,214 @@
+#wrapper #content-wrapper {
+    background-color: #f8f9fc;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#wrapper #content-wrapper #main-content {
+    flex: 1 0 auto;
+}
+
+.topbar .navbar-search {
+    width: 25rem;
+}
+
+.topbar .navbar-search input {
+    font-size: .85rem;
+    height: auto;
+}
+
+.form-control {
+    border-radius: .35rem;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.navbar-expand .navbar-nav {
+    flex-direction: row;
+}
+
+.topbar.navbar-light .navbar-nav .nav-item .nav-link:hover {
+    color: #b7b9cc;
+}
+
+.topbar .dropdown .dropdown-menu {
+    /* width: calc(100% - 1.5rem); */
+    right: .75rem;
+}
+
+.topbar .nav-item .nav-link {
+    height: 4.375rem;
+    display: flex;
+    align-items: center;
+    padding: 0 .75rem;
+    color: #d1d3e2;
+}
+
+.topbar .nav-item .nav-link .badge-counter {
+    position: absolute;
+    transform: scale(.7);
+    transform-origin: top right;
+    right: .25rem;
+    margin-top: -.25rem;
+}
+
+.badge {
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .35rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.topbar .dropdown-list {
+    padding: 0;
+    border: none;
+    overflow: hidden;
+    width: 20rem !important;
+}
+
+.topbar .dropdown-list .dropdown-header {
+    background-color: #4e73df;
+    border: 1px solid #4e73df;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    color: #fff;
+    font-weight: 800;
+    font-size: .65rem;
+}
+
+.topbar .dropdown-list .dropdown-item {
+    white-space: normal;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    border-left: 1px solid #e3e6f0;
+    border-right: 1px solid #e3e6f0;
+    border-bottom: 1px solid #e3e6f0;
+    line-height: 1.3rem;
+}
+
+.icon-circle {
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-gray-500 {
+    color: #b7b9cc!important;
+}
+
+.shadow {
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58, 59, 69, .15)!important;
+}
+
+.topbar .dropdown-list .dropdown-item .dropdown-list-image {
+    position: relative;
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.topbar .dropdown-list .dropdown-item .dropdown-list-image img {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.topbar .dropdown-list .dropdown-item .dropdown-list-image .status-indicator {
+    background-color: #eaecf4;
+    height: .75rem;
+    width: .75rem;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: .125rem solid #fff;
+}
+
+.bg-success {
+    background-color: #1cc88a!important;
+}
+
+.bg-warning {
+    background-color: #f6c23e!important;
+}
+
+.text-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: .78rem;
+}
+
+.topbar .dropdown-list .dropdown-item .text-truncate {
+    max-width: 13.375rem;
+}
+
+.topbar .topbar-divider {
+    width: 0;
+    border-right: 1px solid #e3e6f0;
+    height: calc(4.375rem - 2rem);
+    margin: auto 1rem;
+}
+
+.topbar .nav-item .nav-link .img-profile {
+    height: 2rem;
+    width: 2rem;
+}
+
+.fa::before {
+    color: #d1d3e2;
+}
+
+.dropdown-item {
+    font-size: 14px;
+}
+
+.border-left-primary {
+    border-left: .25rem solid #4e73df;
+}
+
+.border-left-success {
+    border-left: .25rem solid #1cc88a;
+}
+
+.border-left-info {
+    border-left: .25rem solid #36b9cc;
+}
+
+.border-left-warning {
+    border-left: .25rem solid #f6c23e;
+}
+
+.table thead th {
+    font-size: .9rem;
+}
+
+.table td {
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+
+/*********************************************************************************
+*********************************** Footer Css ***********************************
+*********************************************************************************/
+
+footer.sticky-footer {
+    padding: 2rem 0;
+    flex-shrink: 0;
+    background-color: #fff;
+}
+
+footer.sticky-footer .copyright {
+    line-height: 1;
+    font-size: .8rem;
+}
